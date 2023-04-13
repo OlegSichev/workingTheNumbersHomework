@@ -13,7 +13,12 @@ public class Main {
             }
         }
         newList.sort(Comparator.naturalOrder());
-        System.out.println(newList);
+        System.out.println("Main:");
+        for (int x : newList){
+            System.out.println(x);
+        }
+        System.out.println();
+        System.out.println("StremMain:");
         StreamMain.streamMain();
     }
 }
